@@ -46,6 +46,8 @@
 #define USE_SERIALRX
 #define USE_SERIALRX_CRSF
 #define USE_SERIALRX_SBUS
+#define USE_ALTITUDE_HOLD
+#define USE_POSITION_HOLD
 
 #define BEEPER_PIN           PC13
 #define MOTOR1_PIN           PC6

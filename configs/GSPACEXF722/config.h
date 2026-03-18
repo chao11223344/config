@@ -37,6 +37,16 @@
 #define USE_FLASH_W25N01G
 #define USE_MAX7456
 
+#define USE_BARO
+#define USE_BARO_BMP280
+#define USE_BARO_DPS310
+#define USE_GPS
+#define USE_MAG
+#define USE_LED_STRIP
+#define USE_SERIALRX
+#define USE_SERIALRX_CRSF
+#define USE_SERIALRX_SBUS
+
 #ifndef USE_CAMERA_CONTROL
 #define USE_CAMERA_CONTROL
 #endif

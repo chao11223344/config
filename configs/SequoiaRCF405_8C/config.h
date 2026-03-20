@@ -39,10 +39,14 @@
 #define USE_SDCARD_SPI
 #define USE_GYRO_CLKIN
 
+#define USE_GPS
 #define USE_MAG
+#define USE_LED_STRIP
 #define USE_SERIALRX
 #define USE_SERIALRX_CRSF
 #define USE_SERIALRX_SBUS
+#define USE_ALTITUDE_HOLD
+#define USE_POSITION_HOLD
 
 #define MOTOR1_PIN          PB1
 #define MOTOR2_PIN          PB0

@@ -36,6 +36,16 @@
 #define USE_BARO_BMP280
 #define USE_BARO_DPS310
 
+#define USE_GPS
+#define USE_MAG
+#define USE_LED_STRIP
+#define USE_SERIALRX
+#define USE_SERIALRX_CRSF
+#define USE_SERIALRX_SBUS
+#define USE_ALTITUDE_HOLD
+#define USE_POSITION_HOLD
+#define USE_SERVOS
+
 #define USE_GYRO_CLKIN
 #define GYRO_1_CLKIN_PIN        PA15
 #define GYRO_2_CLKIN_PIN        PA15

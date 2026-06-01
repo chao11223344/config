@@ -37,7 +37,6 @@
 #define USE_FLASH_W25Q128FV
 #define USE_FLASH_W25N01G
 #define USE_MAX7456
-#define USE_GYRO_CLKIN
 
 #define USE_GPS
 #define USE_MAG
@@ -90,7 +89,6 @@
 #define MAX7456_SPI_CS_PIN   PB12
 #define GYRO_1_EXTI_PIN      PC4
 #define GYRO_1_CS_PIN        PA4
-#define GYRO_1_CLKIN_PIN     PB0
 
 #define TIMER_PIN_MAPPING \
     TIMER_PIN_MAP( 0, PC6 , 1,  0) \
@@ -102,8 +100,7 @@
     TIMER_PIN_MAP( 6, PB10 , 1,  0) \
     TIMER_PIN_MAP( 7, PB11 , 1,  0) \
     TIMER_PIN_MAP( 8, PB1 , 1,  1) \
-    TIMER_PIN_MAP( 9, PA3 , 2,  -1) \
-    TIMER_PIN_MAP( 10, PB0 , 1,  -1) 
+    TIMER_PIN_MAP( 9, PA3 , 2,  -1) 
 
 #define SPI3_TX_DMA_OPT     0
 #define ADC1_DMA_OPT        1

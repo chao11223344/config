@@ -68,6 +68,7 @@ This is the official list of manufacturer ids (`manufacturer_id` in the target c
 |GEEL|Geelang|https://geelang.com/|
 |GEFP|GetFPV LLC|https://www.getfpv.com/|
 |GEPR|GEPRC|https://geprc.com/|
+|GSPX|GSPACEX||
 |GEUP|Gear Up|https://takeyourgear.com/|
 |GFPV|GE-FPV|http://www.ge-fpv.com/|
 |GMRC|Great Mountain RC|https://github.com/shanggl|
@@ -93,6 +94,7 @@ This is the official list of manufacturer ids (`manufacturer_id` in the target c
 |MEPS|MepsKing|https://www.mepsking.com/|
 |MERA|MerakRC|http://www.merakrc.com/|
 |MICO|MicoAir Tech|https://micoair.com/|
+|MMSL|MMSL||
 |MOLA|MotoLab|https://github.com/MotoLab|
 |MOQU|Modd Quad|https://www.moddquad.com/|
 |MTKS|Matek Systems|http://www.mateksys.com/|

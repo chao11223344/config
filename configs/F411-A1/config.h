@@ -50,6 +50,10 @@
 #define RX_SPI_BIND                     PB2
 #define RX_SPI_LED                      PB9
 
+#define USE_GPS
+#define USE_ALTITUDE_HOLD
+#define USE_POSITION_HOLD
+
 #define BOARD_NAME F411-A1
 #define MANUFACTURER_ID A1
 

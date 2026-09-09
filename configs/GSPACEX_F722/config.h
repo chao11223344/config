@@ -21,7 +21,7 @@
 
 #pragma once
 
-#define FC_TARGET_MCU     STM32F7X2
+#define FC_TARGET_MCU     STM32F722
 
 #define BOARD_NAME        GSPACEX_F722
 #define MANUFACTURER_ID   GSPX
@@ -36,6 +36,9 @@
 #define USE_ACC_SPI_ICM42688P
 #define USE_BARO_DPS310
 #define USE_BARO_BMP280
+#define USE_GPS
+#define USE_ALTITUDE_HOLD
+#define USE_POSITION_HOLD
 #define USE_FLASH
 #define USE_FLASH_W25Q128FV
 #define USE_MAX7456

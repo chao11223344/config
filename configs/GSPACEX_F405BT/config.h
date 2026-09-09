@@ -36,6 +36,10 @@
 #define USE_MAX7456
 #define USE_BARO
 #define USE_BARO_DPS310
+#define USE_BARO_BMP280
+#define USE_GPS
+#define USE_ALTITUDE_HOLD
+#define USE_POSITION_HOLD
 
 #define BEEPER_PIN PC15
 #define MOTOR1_PIN PB6
@@ -72,12 +76,12 @@
 #define SPI1_SDO_PIN PA7
 #define SPI2_SDO_PIN PC3
 #define SPI3_SDO_PIN PB5
-#define CAMERA_CONTROL_PIN PB14
 #define ADC_VBAT_PIN PC0
 #define ADC_RSSI_PIN PC5
 #define ADC_CURR_PIN PC1
 #define FLASH_CS_PIN PC14
 #define PINIO1_PIN PB11
+#define PINIO2_PIN PB14
 #define MAX7456_SPI_CS_PIN PB12
 #define GYRO_1_EXTI_PIN PC4
 #define GYRO_1_CS_PIN PA4
@@ -92,9 +96,8 @@
     TIMER_PIN_MAP( 6, PB10, 1,  0) \
     TIMER_PIN_MAP( 7, PA15, 1,  0) \
     TIMER_PIN_MAP( 8, PB15, 3, -1) \
-    TIMER_PIN_MAP( 9, PB14, 3, -1) \
-    TIMER_PIN_MAP(10, PA8,  1,  0) \
-    TIMER_PIN_MAP(11, PA3,  3, -1)
+    TIMER_PIN_MAP( 9, PA8,  1,  0) \
+    TIMER_PIN_MAP(10, PA3,  3, -1)
 
 #define ADC1_DMA_OPT 0
 
@@ -111,7 +114,9 @@
 #define SYSTEM_HSE_MHZ 8
 #define MAX7456_SPI_INSTANCE SPI2
 #define PINIO1_CONFIG 129
+#define PINIO2_CONFIG 129
 #define PINIO1_BOX 0
+#define PINIO2_BOX 41
 #define GYRO_1_SPI_INSTANCE SPI1
 #define GYRO_1_ALIGN CW90_DEG
 
